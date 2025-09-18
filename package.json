@@ -1,0 +1,12 @@
+{
+  "name": "pdf-travel-expense-extractor",
+  "version": "1.0.0",
+  "description": "Portable PDF travel expense extractor with OCR support",
+  "main": "main.py",
+  "scripts": {
+    "start": "python main.py",
+    "install-deps": "python -m pip install --user pyinstaller pyqt5 pypdf2 pdfplumber pytesseract opencv-python pandas openpyxl"
+  },
+  "author": "Assistant",
+  "license": "MIT"
+}
